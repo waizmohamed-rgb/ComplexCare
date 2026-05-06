@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import NoticesScreen from './screens/NoticesScreen';
+import ParcelsScreen from './screens/ParcelsScreen';
 
 export default function App() {
   return (
     <>
       <StatusBar style="dark" />
-      <NoticesScreen />
+      <ParcelsScreen />
     </>
   );
 }
