@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import LoginScreen from './screens/LoginScreen';
+import ResidentDashboard from './screens/ResidentDashboard';
 
 export default function App() {
   return (
     <>
-      <StatusBar style="light" />
-      <LoginScreen />
+      <StatusBar style="dark" />
+      <ResidentDashboard />
     </>
   );
 }
