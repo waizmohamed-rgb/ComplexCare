@@ -1,11 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import ComplaintsScreen from './screens/ComplaintsScreen';
+import VisitorCodeScreen from './screens/VisitorCodeScreen';
 
 export default function App() {
   return (
     <>
       <StatusBar style="dark" />
-      <ComplaintsScreen />
+      <VisitorCodeScreen />
     </>
   );
 }
